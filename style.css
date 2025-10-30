@@ -1,0 +1,445 @@
+body {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section#hero {
+    background-image: url("bg.svg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 6rem;
+}
+
+header h1 {
+    color: white;
+    position: absolute;
+    top: 0.5rem;
+    left: 10rem;
+    font-weight: 400;
+}
+
+header h1 span {
+    font-weight: 900;
+}
+
+header nav ul {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding: 2rem 3rem;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    gap: 7rem;
+}
+
+header nav ul li {
+    cursor: pointer;
+}
+
+header nav ul li:hover {
+    color: rgb(68, 170, 106);
+}
+
+header nav ul li a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: rgb(68, 170, 106);
+}
+
+header div {
+    background-color: rgb(68, 170, 106);
+    color: white;
+    width: 12rem;
+    height: 1rem;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    line-height: center;
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    cursor: pointer;
+}
+
+header div:hover {
+    background-color: rgb(30, 225, 102)
+}
+
+main {
+    min-height: 40rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main h1 span {
+    color: rgb(68, 170, 106);
+}
+
+main div {
+    background-color: rgb(68, 170, 106);
+    color: white;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+main div h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    flex: 1;
+}
+
+section#tradition {
+    margin: 0;
+    padding: 0;
+    min-height: 40rem;
+    display:flex;
+    background-color: #FAF4EA;
+    position: relative;
+}
+
+section#tradition div {
+    position: relative;
+    width: 50%;
+}
+
+section#tradition div h1 {
+    color: #31261A;
+    position:absolute;
+    left: 10rem;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+section#tradition div p#first {
+    color: #31261A;
+    position: absolute;
+    left: 10rem;
+    top: 15rem;
+    font-weight: 500;
+    font-size: large;
+}
+
+section#tradition div p#first span {
+    color: rgb(68, 170, 106);
+    font-weight: 900;
+}
+
+section#tradition div p#second {
+    color: #31261A;
+    position: absolute;
+    left: 10rem;
+    top: 25rem;
+    font-weight:500;
+    font-size: large;
+}
+
+section#tradition div p#second span {
+    color: rgb(68, 170, 106);
+    font-weight: 900;
+}
+
+section#tradition img {
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    right: 5rem;
+    top: 3rem;
+    object-fit: contain;
+}
+
+section#chef {
+    margin: 0;
+    padding: 0;
+    min-height: 50rem;
+    display:flex;
+    background-color: #FAF4EA;
+    position: relative;
+}
+
+section#chef h1 {
+    color: #31261A;
+    position: absolute;
+    top: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+section#chef h1 span {
+    color: rgb(68, 170, 106);
+}
+
+section#chef div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#chef div img#line1 {
+    position: absolute;
+    top: 10.5rem;
+    left: 11rem;
+}
+
+section#chef div img#line2 {
+    position: absolute;
+    top: 10.5rem;
+    right: 11rem;
+}
+
+section#chef div img#Nastya {
+    position: absolute;
+    left: 11rem;
+    top: 19rem;
+    z-index: 2;
+}
+
+section#chef div img#Reck1 {
+    position: absolute;
+    left: 10rem;
+    top: 20rem;
+    z-index: 1;
+}
+
+section#chef div p#Nas1 {
+    color: #31261A;
+    position: absolute;
+    left: 27.5rem;
+    top: 15.5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 15rem;
+}
+
+section#chef div p#Nas2 {
+    color: #31261A;
+    position: absolute;
+    left: 27.5rem;
+    top: 22rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 20rem;
+}
+
+section#chef div p#Nas3 {
+    color: #31261A;
+    position: absolute;
+    left: 27.5rem;
+    top: 25rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 20rem;
+}
+
+section#chef div p#Nas4 {
+    color: #31261A;
+    position: absolute;
+    left: 27.5rem;
+    top: 30rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 20rem;
+}
+
+section#chef div img#Vlad {
+    position: absolute;
+    right: 31.5rem;
+    top: 19rem;
+    z-index: 2;
+}
+
+section#chef div img#Reck2 {
+    position: absolute;
+    right: 32.5rem;
+    top: 20rem;
+    z-index: 1;
+}
+
+section#chef div p#Vlad1 {
+    color: #31261A;
+    position: absolute;
+    right: 15rem;
+    top: 15.5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 15rem;
+}
+
+section#chef div p#Vlad2 {
+    color: #31261A;
+    position: absolute;
+    right: 10rem;
+    top: 22rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 20rem;
+}
+
+section#chef div p#Vlad3 {
+    color: #31261A;
+    position: absolute;
+    right: 10rem;
+    top: 25rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 20rem;
+}
+
+section#chef div p#Vlad4 {
+    color: #31261A;
+    position: absolute;
+    right: 10rem;
+    top: 37rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 20rem;
+}
+
+section#formats {
+    margin: 0;
+    padding: 0;
+    min-height: 50rem;
+    display:flex;
+    background-color: #FAF4EA;
+    position: relative;
+    align-items: center;
+}
+
+section#formats h1 {
+    color: #31261A;
+    position: absolute;
+    top: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+}
+section#formats div {
+    position: relative;
+    top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+section#formats div img#arrow1 {
+    cursor: pointer;
+}
+
+section#formats div img#arrow1:active {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+section#formats div img#arrow2 {
+    cursor: pointer;
+}
+
+section#formats div img#arrow2:active {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer {
+    background-image: url(footbg.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: #31261A;
+    display: flex;
+    height: 15rem;
+    position: relative;
+}
+
+footer h2 {
+    color: white;
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    z-index: 100;
+}
+
+footer h2 span {
+    font-weight: 900;
+}
+
+footer nav#first-nav ul#first-ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    left: 25rem;
+    font-size: 1rem;
+    list-style: none;
+    gap: 2rem;
+    font-weight: 900;
+}
+
+footer nav#second-nav ul#second-ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    left: 45rem;
+    font-size: 1rem;
+    list-style: none;
+    gap: 2rem;
+}
+footer nav#second-nav ul#second-ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav#second-nav ul#second-ul a:hover {
+    color: rgb(68, 170, 106);
+}
